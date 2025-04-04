@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class school {
-    public static void main(String[] args) {
+ public static void main(String[] args){
         
         // Ask the user to enter their age and store it as a String
         String input = JOptionPane.showInputDialog(null, "Enter your age:");

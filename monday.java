@@ -1,12 +1,16 @@
-public class new {
-    public static void main(Sting []args){
+import javax.swing.JOptionPane;
 
-        int a,b,c;
+public class monday {
+    public static void main(String[] args) {
+        
+        // Ask the user to enter their age and store it as a String
+        String input =  JOptionPane.showInputDialog(null, "Enter your age:");
 
-        a=5;
-        b=2;
+        // Convert the input string to an integer
+       // int age = Integer.parseInt(input);
 
-        c =a*b;
-        System.out.println(c);
+
+        // Show a message with the user's age
+      //  JOptionPane.showMessageDialog(null, "Your age is: " + age);
     }
 }

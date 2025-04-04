@@ -1,6 +1,13 @@
-public class Main {
-    public static void Main(String []args);{
+import javax.swing.JOptionPane;
 
-        System.out.println("Hello world");
+public class Main {
+ public static void main(String[] args) {
+    
+    int age = Integer.parseInt(input);
+    
+
+      JOptionPane.showInputDialog(null, "enter your age ");
+
+     JOptionPane.showMessageDialog(null, "Your age is: " +age ); 
     }
 }
